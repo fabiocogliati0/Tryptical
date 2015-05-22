@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Tryptical.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{C7B6D84C-63E3-4164-BA05-D3CC44880CA0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Tryptical.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TrypticalEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{BBA06B17-8844-4BBD-9D99-3AA0AAAF1694}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Tryptical">
+			<UniqueIdentifier>{2AAFB65C-9FD2-4999-85D7-4009D555136A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Tryptical\Tryptical.Build.cs">
+			<Filter>Source\Tryptical</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Tryptical\Tryptical.cpp">
+			<Filter>Source\Tryptical</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Tryptical\Tryptical.h">
+			<Filter>Source\Tryptical</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Tryptical\TrypticalCharacter.cpp">
+			<Filter>Source\Tryptical</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Tryptical\TrypticalCharacter.h">
+			<Filter>Source\Tryptical</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Tryptical\TrypticalGameMode.cpp">
+			<Filter>Source\Tryptical</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Tryptical\TrypticalGameMode.h">
+			<Filter>Source\Tryptical</Filter>
+		</ClInclude >
+		<Filter Include="Source\Tryptical\Resources">
+			<UniqueIdentifier>{88384EDD-3776-4060-9D94-FD931B7A7392}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Tryptical\Resources\Windows">
+			<UniqueIdentifier>{0835A588-37C4-4C87-ACCD-0222D2AE755E}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\Tryptical\Resources\Windows\Tryptical.rc">
+			<Filter>Source\Tryptical\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
